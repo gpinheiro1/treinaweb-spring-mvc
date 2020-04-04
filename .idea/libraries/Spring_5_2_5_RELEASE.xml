@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Spring-5.2.3.RELEASE" type="spring">
+  <library name="Spring-5.2.5.RELEASE" type="spring">
     <properties version="5.2.3.RELEASE" />
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/spring-instrument-5.2.3.RELEASE.jar!/" />
