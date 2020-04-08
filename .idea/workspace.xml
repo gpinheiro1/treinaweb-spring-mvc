@@ -7,10 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fadf387-2b4c-423a-be0c-e183e08e68f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_5_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treinaweb-spring-mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/treinaweb-spring-mvc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/treinaweb-spring-mvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/treinaweb-spring-mvc-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -286,7 +285,7 @@
       <workItem from="1586023547767" duration="3056000" />
       <workItem from="1586026641625" duration="2314000" />
       <workItem from="1586028973304" duration="498000" />
-      <workItem from="1586029489110" duration="6327000" />
+      <workItem from="1586029489110" duration="11124000" />
     </task>
     <servers />
   </component>

@@ -11,11 +11,14 @@
        http://www.springframework.org/schema/context/spring-context.xsd
 
 ">
+    <!-- o servlet cuida da interceptação das requisicoes feitas pela web e orquestrar os controllers -->
     <!-- beans são instancias de classes especiais do spring que independem da gestão do desenvolvedor, o proprio spring trata de criar ou destruir essas instancias (ioc)-->
     <!-- toda a aplicacao irá rodar em cima dos controllers-->
     <!-- o viewResolver é um bean que resolve o problema das views determinando qual jsp deverá ser devolvida para o usuario-->
     <!-- a classe UrlBasedViewResolver é responsavel por fazer a ligacao entre as views e controllers atraves da url que o usuario digitar-->
-    <!-- a classe JstlView é utilizada para converter os arquivos jsp em html para ser exibido para o usuário  -->
+    <!-- a classe JstlView é utilizada para converter os arquivos jsp e jsf em html para ser exibido para o usuário  -->
+    <!-- os controllers são o coracao da aplicacao, as requisicoes são feitas para os controllers e assim os htmls são devolvidos-->
+    <!-- a conclusao é que as controllers criam então os beans (instancias do spring) devolvendo as paginas para o cliente-->
     <context:component-scan base-package="br.com.treinaweb.springmvc.controllers" /> <!-- onde o spring irá localizar os controllers -->
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.UrlBasedViewResolver">
