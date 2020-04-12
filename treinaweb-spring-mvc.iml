@@ -10,8 +10,7 @@
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
         <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/java" />
-          <root url="file://$MODULE_DIR$/src/main/resources" />
+          <root url="file://$MODULE_DIR$/src" />
         </sourceRoots>
       </configuration>
     </facet>
@@ -19,6 +18,8 @@
       <configuration>
         <fileset id="fileset" name="Treinaweb Spring Mvc Servlet" removed="false">
           <file>file://$MODULE_DIR$/web/WEB-INF/treinaweb-spring-mvc-servlet.xml</file>
+          <file>file://$MODULE_DIR$/web/WEB-INF/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/web/WEB-INF/dispatcher-servlet.xml</file>
         </fileset>
       </configuration>
     </facet>
